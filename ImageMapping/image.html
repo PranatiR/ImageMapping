@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VJ Siddhu Vlogs Team Mapping</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .content {
+            margin: 20px;
+        }
+        .note {
+            margin-top: 20px;
+            font-size: 1.2em;
+            color: gray;
+        }
+        img {
+            width: auto;
+            height: auto;
+        }
+        .image-container {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Best Movies</h1>
+        <p>Click on a movie to see cast</p>
+    </header>
+
+    <div class="content">
+        <div class="image-container">
+            <img src="image.png" usemap="#image-map" alt="Movie Poster">
+        </div>
+
+        <map name="image-map">
+            <area title="Vaazhai" href="https://en.wikipedia.org/wiki/Vaazhai" coords="0,0,682,384" shape="rect">
+            <area title="Lubber Pandhu" href="https://en.wikipedia.org/wiki/Lubber_Pandhu" coords="682,0,1364,384" shape="rect">
+            <area title="Lover" href="https://en.wikipedia.org/wiki/Lover_(2024_film)" coords="1364,0,2048,384" shape="rect">
+            <area title="Kottukaali" href="https://en.wikipedia.org/wiki/The_Adamant_Girl" coords="0,384,682,768" shape="rect">
+            <area title="Meyazhagan" href="https://en.wikipedia.org/wiki/Meiyazhagan" coords="682,384,1364,768" shape="rect">
+            <area title="Garudan" href="https://en.wikipedia.org/wiki/Garudan_(2024_film)" coords="1364,384,2048,768" shape="rect">
+            <area title="Maharaja" href="https://en.wikipedia.org/wiki/Maharaja_(2024_film)" coords="0,768,682,1152" shape="rect">
+            <area title="Viduthalai" href="https://en.wikipedia.org/wiki/Viduthalai_Part_1" coords="682,768,1364,1152" shape="rect">
+            <area title="Vettayan" href="https://en.wikipedia.org/wiki/Vettaiyan" coords="1364,768,2048,1152" shape="rect">
+        </map>
+
+        <p class="note">Note: Hover over the areas to see their names, and click to visit their Wikipedia pages.</p>
+    </div>
+</body>
+</html>
